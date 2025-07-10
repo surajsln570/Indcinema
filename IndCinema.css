@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+
+    /* margin: 0px;
+    padding: 0px;  */
+}
+
+body {
+    width: 1100px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    background: url(/apples-2023401_1280.jpg) center center/cover;
+    height: 105px;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    float: left;
+
+
+}
+
+.navbar {
+    /* border: 3px solid yellow; */
+    width: 795px;
+    margin: auto;
+    padding-left: 89px;
+    position: sticky;
+
+
+
+}
+
+
+.ul {
+
+    /* border: 2px solid red; */
+    position: relative;
+    width: 700px;
+    display: flex;
+    height: 75px;
+}
+
+.li {
+    list-style: none;
+
+    display: flex;
+    margin: auto;
+}
+
+.a {
+    /* color: red; */
+    font-style: inherit;
+    color: white;
+    text-decoration: none;
+    margin: 18px;
+    padding: 2px;
+    font-size: 24px;
+
+}
+
+.a:hover {
+    color: red;
+}
+
+.search {
+
+    width: 40px;
+    height: 20px;
+    float: right;
+    position: relative;
+    margin-top: -75px;
+}
+
+
+
+.input {
+    /* padding: 4px;
+    margin: -35px 2px 2px 2px; */
+    visibility: visible;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px 20px;
+    padding: 12px;
+}
+
+.container {
+    display: flex;
+    width: 1350px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 431px;
+    /* border: 2px solid red; */
+    margin: 0px 6px;
+    padding: 16px;
+    background-color: bisque;
+}
+
+.box a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+.box p {
+    text-align: center;
+    margin: 0px;
+}

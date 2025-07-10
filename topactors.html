@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top actors</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+            /* margin: 0px;
+    padding: 0px;  */
+        }
+
+        body {
+            width: 1100px;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            background: url(/apples-2023401_1280.jpg) center center/cover;
+            height: 105px;
+            width: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        .logo {
+            width: 75px;
+            height: 75px;
+            float: left;
+
+
+        }
+
+        .navbar {
+            /* border: 3px solid yellow; */
+            width: 795px;
+            margin: auto;
+            padding-left: 89px;
+
+
+
+        }
+
+
+        .ul {
+
+            /* border: 2px solid red; */
+            position: relative;
+            width: 700px;
+            display: flex;
+            height: 75px;
+        }
+
+        .li {
+            list-style: none;
+
+            display: flex;
+            margin: auto;
+        }
+
+        .a {
+            /* color: red; */
+            font-style: inherit;
+            color: white;
+            text-decoration: none;
+            margin: 18px;
+            padding: 2px;
+            font-size: 24px;
+
+        }
+
+        .a:hover {
+            color: red;
+        }
+
+        .search {
+
+            width: 40px;
+            height: 20px;
+            float: right;
+            position: relative;
+            margin-top: -75px;
+        }
+
+
+
+        .input {
+            /* padding: 4px;
+    margin: -35px 2px 2px 2px; */
+            visibility: visible;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 40px 20px;
+            padding: 12px;
+        }
+
+        h1 a {
+            color: #7b0a0e;
+            text-decoration: none;
+            display: inline-block;
+            width: 1300px;
+            text-align: center;
+        }
+
+        ol li a {
+            color: #e5530a;
+            font-size: 25px;
+            text-decoration: none;
+            margin: 0px 10px;
+            padding: 0px 10px;
+        }
+
+        a:hover {
+            color: aliceblue;
+            background-color: black;
+
+        }
+
+        .back {
+            font-size: 38px;
+            background-color: #ffc4e375;
+            color: #08772b;
+            margin-left: 41px;
+            border: 5px;
+            display: inline-block;
+            width: 1297px;
+            text-align: center;
+        }
+
+        .actbox {
+            display: flex;
+            height: 150px;
+            width: 1300px;
+            justify-content: center;
+            align-items: center;
+            background-color: #2be2cf26;
+            margin: 5px 0px;
+        }
+
+        .actpic {
+            height: 100px;
+            width: 100px;
+            margin: 0px 100px;
+            padding: 0px 10px;
+        }
+
+        #topactors {
+            width: 1344px;
+            height: 50px;
+            justify-content: center;
+            background-color: burlywood;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img class="logo"
+        src="https://img.freepik.com/free-vector/realistic-bollywood-cinema-sign-illustration_23-2148470397.jpg?semt=ais_hybrid&w=740"
+        alt="">
+    <div class="navbar">
+        <ul class="ul">
+            <li class="li"> <a class="a" href="/indcinema.html">Home</a></li>
+            <li class="li"> <a class="a" href="https://www.bollywoodhungama.com/bollywood/">News</a></li>
+            <li class="li"> <a class="a" href="https://www.bollywoodhungama.com/box-office/">Box Office</a></li>
+            <li class="li"> <a class="a" href="/">Reviews</a></li>
+            <li class="li"> <a class="a" href="/">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div class="search">
+        <input class="input" type="text" placeholder="Search This Website">
+    </div>
+    <div id="topactors">
+
+        <H1><a href="/topactors.html">Top Actors In India</a></H1>
+    </div>
+    <ol>
+        <li>
+            <div class="actbox">
+                <a href="https://en.wikipedia.org/wiki/Prabhas">Prabhas Raju</a>
+                <img class="actpic" src="data:image/webp;base64,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" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Shahrukh Khan">Shahrukh Khan</a>
+                <img class="actpic" src="data:image/webp;base64,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" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/ranbir Kapoor">ranbir Kapoor</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Vijay_(actor)">Thalapati Vijay</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Aamir_Khan">Amir Khan</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Allu_Arjun">allu arjun</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Yash_(actor)">Yash</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Rajnikant">Rajnikant</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/salman khan">salman khan</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="actbox"> <a href="https://en.wikipedia.org/wiki/Ajay Devgn">Ajay Devgan</a>
+                <img class="actpic" src="/apples-2023401_1280.jpg" alt="">
+            </div>
+        </li>
+
+
+    </ol>
+    <div>
+        <a href="/indcinema.html" class="back"><strong>Back</strong></a>
+    </div>
+</body>
+
+</html>
