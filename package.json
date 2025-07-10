@@ -1,0 +1,19 @@
+{
+  "name": "indcinema",
+  "version": "1.0.0",
+  "description": "INdian Cinema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajsln570/Indcinema.git"
+  },
+  "author": "Suraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajsln570/Indcinema/issues"
+  },
+  "homepage": "https://github.com/surajsln570/Indcinema#readme"
+}
