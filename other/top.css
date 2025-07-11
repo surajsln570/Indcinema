@@ -4,147 +4,441 @@
             /* margin: 0px;
     padding: 0px;  */
         }
+        @media only screen and (max-width:430px) {
 
-        body {
-            width: 1100px;
+            body {
+                  width: 1100px;
+              }
+      
+              body::before {
+                  content: "";
+                  position: absolute;
+                  background: url('../img/back.jpg') center center/cover;
+                  height: 105px;
+                  width: 100%;
+                  z-index: -1;
+                  top: 0;
+                  left: 0;
+              }
+      
+              .logo {
+                  width: 75px;
+                  height: 75px;
+                  float: left;
+      
+      
+              }
+      
+              .navbar {
+                  /* border: 3px solid yellow; */
+                  width: 795px;
+                  margin: auto;
+                  padding-left: 89px;
+      
+      
+      
+              }
+      
+      
+              .ul {
+      
+                  /* border: 2px solid red; */
+                  position: relative;
+                  width: 700px;
+                  display: flex;
+                  height: 75px;
+              }
+      
+              .li {
+                  list-style: none;
+      
+                  display: flex;
+                  margin: auto;
+              }
+      
+              .a {
+                  /* color: red; */
+                  font-style: inherit;
+                  color: white;
+                  text-decoration: none;
+                  margin: 18px;
+                  padding: 2px;
+                  font-size: 24px;
+      
+              }
+      
+              .a:hover {
+                  color: red;
+              }
+      
+              .search {
+      
+                  width: 40px;
+                  height: 20px;
+                  float: right;
+                  position: relative;
+                  margin-top: -75px;
+              }
+      
+      
+      
+              .input {
+                  /* padding: 4px;
+          margin: -35px 2px 2px 2px; */
+                  visibility: visible;
+                  border-radius: 20px;
+                  text-align: center;
+                  font-size: 40px 20px;
+                  padding: 12px;
+              }
+      
+              h1 a {
+                  color: #7b0a0e;
+                  text-decoration: none;
+                  display: inline-block;
+                  width: 1300px;
+                  text-align: center;
+              }
+      
+              ol li a {
+                  color: #e5530a;
+                  font-size: 25px;
+                  text-decoration: none;
+                  margin: 0px 10px;
+                  padding: 0px 10px;
+              }
+      
+              a:hover {
+                  color: aliceblue;
+                  background-color: black;
+      
+              }
+      
+              .back {
+                  font-size: 38px;
+                  background-color: #ffc4e375;
+                  color: #08772b;
+                  margin-left: 41px;
+                  border: 5px;
+                  display: inline-block;
+                  width: 1297px;
+                  text-align: center;
+              }
+      
+              .actbox {
+                  display: flex;
+                  height: 150px;
+                  width: 1300px;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #2be2cf26;
+                  margin: 5px 0px;
+              }
+      
+              .actpic {
+                  height: 100px;
+                  width: 100px;
+                  margin: 0px 100px;
+                  padding: 0px 10px;
+              }
+      
+              #topactors {
+                  width: 1344px;
+                  height: 50px;
+                  justify-content: center;
+                  background-color: burlywood;
+      
+              }
         }
+        @media only screen and (min-width:300px) {
 
-        body::before {
-            content: "";
-            position: absolute;
-            background: url('../img/back.jpg') center center/cover;
-            height: 105px;
-            width: 100%;
-            z-index: -1;
-            top: 0;
-            left: 0;
+            body {
+                  width: 1100px;
+              }
+      
+              body::before {
+                  content: "";
+                  position: absolute;
+                  background: url('../img/back.jpg') center center/cover;
+                  height: 105px;
+                  width: 100%;
+                  z-index: -1;
+                  top: 0;
+                  left: 0;
+              }
+      
+              .logo {
+                  width: 75px;
+                  height: 75px;
+                  float: left;
+      
+      
+              }
+      
+              .navbar {
+                  /* border: 3px solid yellow; */
+                  width: 795px;
+                  margin: auto;
+                  padding-left: 89px;
+      
+      
+      
+              }
+      
+      
+              .ul {
+      
+                  /* border: 2px solid red; */
+                  position: relative;
+                  width: 700px;
+                  display: flex;
+                  height: 75px;
+              }
+      
+              .li {
+                  list-style: none;
+      
+                  display: flex;
+                  margin: auto;
+              }
+      
+              .a {
+                  /* color: red; */
+                  font-style: inherit;
+                  color: white;
+                  text-decoration: none;
+                  margin: 18px;
+                  padding: 2px;
+                  font-size: 24px;
+      
+              }
+      
+              .a:hover {
+                  color: red;
+              }
+      
+              .search {
+      
+                  width: 40px;
+                  height: 20px;
+                  float: right;
+                  position: relative;
+                  margin-top: -75px;
+              }
+      
+      
+      
+              .input {
+                  /* padding: 4px;
+          margin: -35px 2px 2px 2px; */
+                  visibility: visible;
+                  border-radius: 20px;
+                  text-align: center;
+                  font-size: 40px 20px;
+                  padding: 12px;
+              }
+      
+              h1 a {
+                  color: #7b0a0e;
+                  text-decoration: none;
+                  display: inline-block;
+                  width: 1300px;
+                  text-align: center;
+              }
+      
+              ol li a {
+                  color: #e5530a;
+                  font-size: 25px;
+                  text-decoration: none;
+                  margin: 0px 10px;
+                  padding: 0px 10px;
+              }
+      
+              a:hover {
+                  color: aliceblue;
+                  background-color: black;
+      
+              }
+      
+              .back {
+                  font-size: 38px;
+                  background-color: #ffc4e375;
+                  color: #08772b;
+                  margin-left: 41px;
+                  border: 5px;
+                  display: inline-block;
+                  width: 1297px;
+                  text-align: center;
+              }
+      
+              .actbox {
+                  display: flex;
+                  height: 150px;
+                  width: 1300px;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #2be2cf26;
+                  margin: 5px 0px;
+              }
+      
+              .actpic {
+                  height: 100px;
+                  width: 100px;
+                  margin: 0px 100px;
+                  padding: 0px 10px;
+              }
+      
+              #topactors {
+                  width: 1344px;
+                  height: 50px;
+                  justify-content: center;
+                  background-color: burlywood;
+      
+              }
         }
+        @media only screen and (min-width:300px) {
 
-        .logo {
-            width: 75px;
-            height: 75px;
-            float: left;
-
-
-        }
-
-        .navbar {
-            /* border: 3px solid yellow; */
-            width: 795px;
-            margin: auto;
-            padding-left: 89px;
-
-
-
-        }
-
-
-        .ul {
-
-            /* border: 2px solid red; */
-            position: relative;
-            width: 700px;
-            display: flex;
-            height: 75px;
-        }
-
-        .li {
-            list-style: none;
-
-            display: flex;
-            margin: auto;
-        }
-
-        .a {
-            /* color: red; */
-            font-style: inherit;
-            color: white;
-            text-decoration: none;
-            margin: 18px;
-            padding: 2px;
-            font-size: 24px;
-
-        }
-
-        .a:hover {
-            color: red;
-        }
-
-        .search {
-
-            width: 40px;
-            height: 20px;
-            float: right;
-            position: relative;
-            margin-top: -75px;
-        }
-
-
-
-        .input {
-            /* padding: 4px;
-    margin: -35px 2px 2px 2px; */
-            visibility: visible;
-            border-radius: 20px;
-            text-align: center;
-            font-size: 40px 20px;
-            padding: 12px;
-        }
-
-        h1 a {
-            color: #7b0a0e;
-            text-decoration: none;
-            display: inline-block;
-            width: 1300px;
-            text-align: center;
-        }
-
-        ol li a {
-            color: #e5530a;
-            font-size: 25px;
-            text-decoration: none;
-            margin: 0px 10px;
-            padding: 0px 10px;
-        }
-
-        a:hover {
-            color: aliceblue;
-            background-color: black;
-
-        }
-
-        .back {
-            font-size: 38px;
-            background-color: #ffc4e375;
-            color: #08772b;
-            margin-left: 41px;
-            border: 5px;
-            display: inline-block;
-            width: 1297px;
-            text-align: center;
-        }
-
-        .actbox {
-            display: flex;
-            height: 150px;
-            width: 1300px;
-            justify-content: center;
-            align-items: center;
-            background-color: #2be2cf26;
-            margin: 5px 0px;
-        }
-
-        .actpic {
-            height: 100px;
-            width: 100px;
-            margin: 0px 100px;
-            padding: 0px 10px;
-        }
-
-        #topactors {
-            width: 1344px;
-            height: 50px;
-            justify-content: center;
-            background-color: burlywood;
-
+            body {
+                  width: 1100px;
+              }
+      
+              body::before {
+                  content: "";
+                  position: absolute;
+                  background: url('../img/back.jpg') center center/cover;
+                  height: 105px;
+                  width: 100%;
+                  z-index: -1;
+                  top: 0;
+                  left: 0;
+              }
+      
+              .logo {
+                  width: 75px;
+                  height: 75px;
+                  float: left;
+      
+      
+              }
+      
+              .navbar {
+                  /* border: 3px solid yellow; */
+                  width: 795px;
+                  margin: auto;
+                  padding-left: 89px;
+      
+      
+      
+              }
+      
+      
+              .ul {
+      
+                  /* border: 2px solid red; */
+                  position: relative;
+                  width: 700px;
+                  display: flex;
+                  height: 75px;
+              }
+      
+              .li {
+                  list-style: none;
+      
+                  display: flex;
+                  margin: auto;
+              }
+      
+              .a {
+                  /* color: red; */
+                  font-style: inherit;
+                  color: white;
+                  text-decoration: none;
+                  margin: 18px;
+                  padding: 2px;
+                  font-size: 24px;
+      
+              }
+      
+              .a:hover {
+                  color: red;
+              }
+      
+              .search {
+      
+                  width: 40px;
+                  height: 20px;
+                  float: right;
+                  position: relative;
+                  margin-top: -75px;
+              }
+      
+      
+      
+              .input {
+                  /* padding: 4px;
+          margin: -35px 2px 2px 2px; */
+                  visibility: visible;
+                  border-radius: 20px;
+                  text-align: center;
+                  font-size: 40px 20px;
+                  padding: 12px;
+              }
+      
+              h1 a {
+                  color: #7b0a0e;
+                  text-decoration: none;
+                  display: inline-block;
+                  width: 1300px;
+                  text-align: center;
+              }
+      
+              ol li a {
+                  color: #e5530a;
+                  font-size: 25px;
+                  text-decoration: none;
+                  margin: 0px 10px;
+                  padding: 0px 10px;
+              }
+      
+              a:hover {
+                  color: aliceblue;
+                  background-color: black;
+      
+              }
+      
+              .back {
+                  font-size: 38px;
+                  background-color: #ffc4e375;
+                  color: #08772b;
+                  margin-left: 41px;
+                  border: 5px;
+                  display: inline-block;
+                  width: 1297px;
+                  text-align: center;
+              }
+      
+              .actbox {
+                  display: flex;
+                  height: 150px;
+                  width: 1300px;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #2be2cf26;
+                  margin: 5px 0px;
+              }
+      
+              .actpic {
+                  height: 100px;
+                  width: 100px;
+                  margin: 0px 100px;
+                  padding: 0px 10px;
+              }
+      
+              #topactors {
+                  width: 1344px;
+                  height: 50px;
+                  justify-content: center;
+                  background-color: burlywood;
+      
+              }
         }
