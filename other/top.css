@@ -177,6 +177,7 @@ width: 430px;
      .navbar {
          margin: 5px;
          width: 100%;
+         margin-bottom: 20px;
      }
 
      .search {
