@@ -126,6 +126,9 @@ body::before {
 }
 
 @media only screen and (max-width: 500px) {
+    body{
+        width: 500px;
+    }
     body::before {
     height: 250px;
   
@@ -138,7 +141,6 @@ body::before {
 
     .container {
         flex-direction: column;
-        
     }
     .navbar {
         margin: 5px;
