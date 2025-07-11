@@ -127,20 +127,23 @@ body::before {
 
 @media only screen and (max-width: 500px) {
     body{
-        width: 500px;
+        width: 430px;
     }
     body::before {
     height: 250px;
+    width: 430px;
   
 }
     .main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 430px;
 }
 
     .container {
         flex-direction: column;
+        width: 430px;
     }
     .navbar {
         margin: 5px;
