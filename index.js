@@ -1,4 +1,4 @@
-let isVisible = false;
+let isVisible = true;
 function toggleOptions(){
     const link = document.querySelector('#ab')
     const options = document.querySelector('#options')
